@@ -112,7 +112,7 @@ function SpawnWeedPlants2() --This spawns in the Weed plants,
 		Citizen.Wait(1)
 		local weedCoords = GenerateWeedCoords2()
 --prop_barrel_01a  prop_plant_01a
-		QBCore.Functions.SpawnLocalObject('prop_peyote_highland_01', weedCoords, function(obj) --- change this prop to whatever plant you are trying to use 
+		QBCore.Functions.SpawnLocalObject('prop_stoneshroom1', weedCoords, function(obj) --- change this prop to whatever plant you are trying to use 
 			PlaceObjectOnGroundProperly(obj)
 			FreezeEntityPosition(obj, true)
 			
